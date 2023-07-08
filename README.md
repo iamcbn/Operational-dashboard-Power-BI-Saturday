@@ -22,7 +22,7 @@ The datasets were obtained from the AdventureWorks19 database. Its .bak file was
 
 The dataset did not require any cleaning.
 
-## In the Data View, the following calculated table and columns were created:
+#### In the Data View, the following calculated table and columns were created:
 
 1. Calendar DAX Table was created using
 Calendar = CALENDARAUTO(12)
@@ -35,7 +35,7 @@ Power BI automatically generated a star schema model. I cross-checked and correc
 
 ![](screenshot_(20).png)
 
-#Report View
+# Report View
 
 This project includes one dashboard titled "Operational Dashboard." The dashboard has three slicers that filter the year, month, and product names. To interact with the dashboard, click [here] [insert link].
 

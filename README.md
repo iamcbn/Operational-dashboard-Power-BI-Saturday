@@ -1,7 +1,8 @@
 # Operational Dashboard
-![](https://th.bing.com/th/id/R.49e5482cc9588570041c2bc51d880947?rik=mEp75exf%2bCSGOA&pid=ImgRaw&r=0)
 ### Power BI Saturday
 This is a learning dataset from Fabric community Nigeria
+
+![](https://th.bing.com/th/id/R.49e5482cc9588570041c2bc51d880947?rik=mEp75exf%2bCSGOA&pid=ImgRaw&r=0)
 
 # Introduction
 
@@ -18,6 +19,15 @@ Here are some Power BI concepts that I was able to apply to this project:
 # Source
 
 The datasets were obtained from the AdventureWorks19 database. Its .bak file was downloaded, and the database was added to MS SQL Server. I used the Power BI SQL Server connector to connect to the database and queried the required tables. The tables needed for this challenge are production.products, production.BillOfMaterial, production.WorkOrder, and production.WorkOrderRouting.
+
+| Step 1 | Step 2 
+| -------------------------- | --- 
+| ![](Screenshot%20(26).png) | ![](Screenshot%20(27).png) 
+
+| Step 3 | Step 4
+| --- | --- 
+| ![](Screenshot%20(28).png) | ![](Screenshot%20(29).png)
+
 
 # Data Cleaning
 
@@ -41,7 +51,7 @@ Power BI automatically generated a star schema model. I cross-checked and correc
 
 # Report View
 
-This project includes one dashboard titled "Operational Dashboard." The dashboard has three slicers that filter the year, month, and product names. To interact with the dashboard, click [here] [insert link].
+This project includes one dashboard titled "Operational Dashboard." The dashboard has three slicers that filter the year, month, and product names. To interact with the dashboard, click [here](insert.link)
 
 # Operational Dashboard
 ![](Dashboard.png)

@@ -26,14 +26,16 @@ The dataset did not require any cleaning.
 
 1. Calendar DAX Table was created using
 Calendar = CALENDARAUTO(12)
-2. Production Timeline Calculated Column was created using
-Production Timeline = DATEDIFF('Production WorkOrderRouting'[ActualStartDate].[Date], 'Production WorkOrderRouting'[ActualEndDate].[Date], DAY).
+2. Production Timeline Calculated Column was created using \n
+    ''' DAX
+Production Timeline = DATEDIFF('Production WorkOrderRouting'[ActualStartDate].[Date], 'Production WorkOrderRouting'[ActualEndDate].[Date], DAY)
+'''
 
 # Data Modeling
 
 Power BI automatically generated a star schema model. I cross-checked and corrected the relationships when necessary. The relationship is shown below:
 
-![](screenshot_(20).png)
+![](https://github.com/iamcbn/Operational-dashboard-Power-BI-Saturday/blob/main/Data%20Model.png)
 
 # Report View
 

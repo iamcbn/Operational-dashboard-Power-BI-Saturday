@@ -1,4 +1,5 @@
 # Operational Dashboard
+![](https://th.bing.com/th/id/R.49e5482cc9588570041c2bc51d880947?rik=mEp75exf%2bCSGOA&pid=ImgRaw&r=0)
 ### Power BI Saturday
 This is a learning dataset from Fabric community Nigeria
 
@@ -25,11 +26,12 @@ The dataset did not require any cleaning.
 #### In the Data View, the following calculated table and columns were created:
 
 1. Calendar DAX Table was created using
+   
 Calendar = CALENDARAUTO(12)
-2. Production Timeline Calculated Column was created using \n
-    ''' DAX
+
+2. Production Timeline Calculated Column was created using
+
 Production Timeline = DATEDIFF('Production WorkOrderRouting'[ActualStartDate].[Date], 'Production WorkOrderRouting'[ActualEndDate].[Date], DAY)
-'''
 
 # Data Modeling
 
@@ -42,7 +44,7 @@ Power BI automatically generated a star schema model. I cross-checked and correc
 This project includes one dashboard titled "Operational Dashboard." The dashboard has three slicers that filter the year, month, and product names. To interact with the dashboard, click [here] [insert link].
 
 # Operational Dashboard
-
+![](Dashboard.png)
 
 ## Insight Uncovered
 

@@ -51,7 +51,7 @@ Power BI automatically generated a star schema model. I cross-checked and correc
 
 # Report View
 
-This project includes one dashboard titled "Operational Dashboard." The dashboard has three slicers that filter the year, month, and product names. To interact with the dashboard, click [here](insert.link)
+This project includes one dashboard titled "Operational Dashboard." The dashboard has three slicers that filter the year, month, and product names. To interact with the dashboard, click [here](https://app.powerbi.com/links/DNHFFGXXnY?ctid=747f2c6a-f963-4814-84fd-6ef1ee9e87bf&pbi_source=linkShare&bookmarkGuid=a19d222a-5f08-46fd-9da2-6c6254f7209a)!
 
 # Operational Dashboard
 ![](Dashboard.png)

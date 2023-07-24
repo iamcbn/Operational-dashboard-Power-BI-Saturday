@@ -36,12 +36,16 @@ The dataset did not require any cleaning.
 #### In the Data View, the following calculated table and columns were created:
 
 1. Calendar DAX Table was created using
-   
+
+```
 Calendar = CALENDARAUTO(12)
+```
 
 2. Production Timeline Calculated Column was created using
 
+```
 Production Timeline = DATEDIFF('Production WorkOrderRouting'[ActualStartDate].[Date], 'Production WorkOrderRouting'[ActualEndDate].[Date], DAY)
+```
 
 # Data Modeling
 
